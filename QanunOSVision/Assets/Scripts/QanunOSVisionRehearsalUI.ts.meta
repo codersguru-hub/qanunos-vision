@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/ad7643bd-f719-4bec-928c-5c78b4d65feb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fd65a648-dd3d-4a10-bf06-7585819cd229
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fd65a648-dd3d-4a10-bf06-7585819cd229
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d61ad51b-d986-4546-b4c3-954285bd6ce0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d61ad51b-d986-4546-b4c3-954285bd6ce0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c0b4f235-9ccc-41c3-a3cf-0d9922af30e7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    compactHeight: false
+    detailHeight: false
+    disclosure: false
+    rejectionColor: false
+    reviewedColor: false
+    textColor: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - width: !<float> 45.000000
+      compactHeight: !<float> 28.000000
+      detailHeight: !<float> 38.000000
+      disclosure: Fictional facts | Mock input | Local fixtures
+      textColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      rejectionColor: !<Vec4> {x: 1.000000, y: 0.700000, z: 0.350000, w: 1.000000}
+      reviewedColor: !<Vec4> {x: 0.550000, y: 1.000000, z: 0.750000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"QanunOS Vision — local rehearsal card"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Presentation"}'
+    - '// @input float width = 45 {"hint":"World card width in centimeters.", "widget":"slider", "min":42, "max":50, "step":1}'
+    - '// @input float compactHeight = 28 {"hint":"Compact rehearsal card height in centimeters.", "widget":"slider", "min":26, "max":32, "step":1}'
+    - '// @input float detailHeight = 38 {"hint":"Source detail replaces the same card, with space for exact provenance.", "widget":"slider", "min":34, "max":40, "step":1}'
+    - '// @input string disclosure = "Fictional facts | Mock input | Local fixtures" {"hint":"Permanent disclosure: this is deliberate mock input using local fixtures."}'
+    - '// @input vec4 textColor = "{1,1,1,1}" {"hint":"Bright additive-display text color.", "widget":"color"}'
+    - '// @input vec4 rejectionColor = "{1,0.7,0.35,1}" {"hint":"Bright rejection heading accent; explicit rejection text always remains.", "widget":"color"}'
+    - '// @input vec4 reviewedColor = "{0.55,1,0.75,1}" {"hint":"Reviewed excerpt identity accent; this does not assert legal currency.", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

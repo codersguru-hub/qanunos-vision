@@ -1,0 +1,9 @@
+{
+  "tier": "effect/utility",
+  "scope": "Approved local-preview-only Gate 0; UI-only utility manifest; no audio, meshes, icons, service calls or publication.",
+  "theme": {"style": "clean", "palette": "bright white text and UIKit defaults", "mood": "neutral"},
+  "assets": [{"type": "ui", "name": "QanunOSVisionGate0CardUI", "elements": [{"element": "card", "container": "backplate", "labels": ["QanunOS Vision", "Fictional demo | Local preview | Gate 0", "Simulated hearing — fictional facts.", "Select the card to inspect this demo.", "Card selected — local demo revealed.", "No reviewed authority available.", "Select demo card", "Return to rehearsal"]}]}],
+  "spatialLayoutCm": {"authoredObject": "Gate0SpatialCard", "position": [0, -15, -110], "width": 45, "height": 24, "button": [28, 5]},
+  "scripts": ["Assets/Scripts/QanunOSVisionGate0CardUI.ts", "Assets/Scripts/QanunOSVisionGate0Main.ts"],
+  "verificationRequired": ["TypeScript compile", "runtime logs", "actual preview pixels", "real SIK select", "real return visibly restores ready state"]
+}

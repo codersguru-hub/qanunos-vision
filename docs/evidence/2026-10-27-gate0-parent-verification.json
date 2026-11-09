@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-27",
+  "verifier": "Parent independent verification after CLAD builder returned",
+  "lensStudio": "5.23.2.26081320",
+  "project": "QanunOSVision/QanunOSVision.esproj",
+  "preview": "Preview 1",
+  "scope": "Gate 0 local preview only; explicit user exception to router sign-in prerequisite; account authorization remains false",
+  "compile": {
+    "status": "succeeded"
+  },
+  "refresh": {
+    "status": "success",
+    "errors": [],
+    "firstActivityAtMs": 29
+  },
+  "select": {
+    "success": true,
+    "responseType": "CommandSuccess",
+    "commandId": "agent-cmd-21-1793115247435"
+  },
+  "return": {
+    "success": true,
+    "responseType": "CommandSuccess",
+    "commandId": "agent-cmd-26-1793115306896"
+  },
+  "selectedQuery": {
+    "_metadata": {
+      "executionTimeMs": 90,
+      "previewName": "Preview 1"
+    },
+    "data": {
+      "sceneObjects": {
+        "matches": [
+          {
+            "components": [
+              {
+                "properties": {
+                  "color": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "horizontalAlignment": "1",
+                  "horizontalOverflow": "0",
+                  "size": 39,
+                  "sizeToFit": false,
+                  "text": "Card selected — local demo revealed.\nNo reviewed authority available.",
+                  "verticalAlignment": "1",
+                  "verticalOverflow": "0"
+                },
+                "type": "Component.Text"
+              }
+            ],
+            "summary": {
+              "childCount": 0,
+              "componentTypes": [
+                "Text",
+                "ScriptComponent",
+                "FlexItem"
+              ],
+              "enabled": true,
+              "name": "Gate0Status",
+              "parentName": "Flex",
+              "parentUniqueId": "2427620146720639846:3342742243143108839",
+              "uniqueId": "2427620146720639846:3342742243143108926"
+            }
+          }
+        ]
+      },
+      "sceneObjectsAction": {
+        "matches": [
+          {
+            "components": [
+              {
+                "properties": {
+                  "color": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "horizontalAlignment": "1",
+                  "horizontalOverflow": "0",
+                  "size": 39,
+                  "sizeToFit": false,
+                  "text": "Return to rehearsal",
+                  "verticalAlignment": "1",
+                  "verticalOverflow": "0"
+                },
+                "type": "Component.Text"
+              }
+            ],
+            "summary": {
+              "childCount": 0,
+              "componentTypes": [
+                "Text"
+              ],
+              "enabled": true,
+              "name": "Gate0ActionLabel",
+              "parentName": "Gate0ActionButton",
+              "parentUniqueId": "2427620146720639846:3342742243143108948",
+              "uniqueId": "2427620146720639846:3342742243143108993"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "returnedQuery": {
+    "_metadata": {
+      "executionTimeMs": 80,
+      "previewName": "Preview 1"
+    },
+    "data": {
+      "actionLabel": {
+        "matches": [
+          {
+            "components": [
+              {
+                "properties": {
+                  "color": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "horizontalAlignment": "1",
+                  "horizontalOverflow": "0",
+                  "size": 39,
+                  "sizeToFit": false,
+                  "text": "Select demo card",
+                  "verticalAlignment": "1",
+                  "verticalOverflow": "0"
+                },
+                "type": "Component.Text"
+              }
+            ]
+          }
+        ]
+      },
+      "sceneObjects": {
+        "matches": [
+          {
+            "components": [
+              {
+                "properties": {
+                  "color": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "horizontalAlignment": "1",
+                  "horizontalOverflow": "0",
+                  "size": 39,
+                  "sizeToFit": false,
+                  "text": "Simulated hearing — fictional facts.\nSelect the card to inspect this demo.",
+                  "verticalAlignment": "1",
+                  "verticalOverflow": "0"
+                },
+                "type": "Component.Text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "errors": [],
+    "prints": [
+      "I 18:33:40.546 [Preview 1] [Assets/Scripts/QanunOSVisionGate0CardUI.ts:89] [QanunOS Gate0] UIKit card ready; fixed world anchor; local fictional demo.",
+      "I 18:34:09.030 [Preview 1] [Assets/Scripts/QanunOSVisionGate0Main.ts:22] [QanunOS Gate0] SELECT observed via UIKit/SIK; demo detail visible.",
+      "I 18:35:08.534 [Preview 1] [Assets/Scripts/QanunOSVisionGate0Main.ts:22] [QanunOS Gate0] RETURN observed via UIKit/SIK; ready card restored."
+    ]
+  },
+  "captures": [
+    "2026-10-27-gate0-parent-selected.jpg",
+    "2026-10-27-gate0-parent-returned.jpg"
+  ],
+  "verdict": "PASS: visible card, real SIK select and return, changed text confirmed by queries, captures visually inspected",
+  "limits": [
+    "No real legal authority or citation validator implemented",
+    "No LEAF tests",
+    "No full rehearsal flow or Gate 2",
+    "No device comfort or performance measurements",
+    "No publishing or account-protected services"
+  ]
+}

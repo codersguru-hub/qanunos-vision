@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-27",
+  "lensStudio": "5.23.2.26081320",
+  "preview": "Preview 1",
+  "compileStatus": "succeeded",
+  "refresh": {
+    "status": "success",
+    "errors": [
+      "W 19:14:05.787 ${CONFIG_DIR}/Bundle/Plugins/[ChatTool] LEAF Plugin@5.23.0@362f6c78a8b5e47e6431049afb6a7109/dist/main.js:802 log] [LeafPlugin][LeafPlugin] Skipping plugin state save: instance was destroyed before its state finished loading."
+    ],
+    "firstActivityAtMs": 43
+  },
+  "transitions": [
+    {
+      "heading": "Mock judge question",
+      "success": true,
+      "responseType": "CommandSuccess",
+      "commandId": "agent-cmd-71-1793117681934",
+      "body": "Which constitutional provision states\nthe general right to litigate?\n\nFictional fixture: FICTIONAL-EG-9999-ART-404",
+      "excerpt": "",
+      "provenance": ""
+    },
+    {
+      "heading": "Unverified — do not cite",
+      "success": true,
+      "responseType": "CommandSuccess",
+      "commandId": "agent-cmd-78-1793117685633",
+      "body": "FICTIONAL-EG-9999-ART-404\nNo exact reviewed source match.\n\nThis practice citation is rejected.",
+      "excerpt": "",
+      "provenance": ""
+    },
+    {
+      "heading": "Reviewed source",
+      "success": true,
+      "responseType": "CommandSuccess",
+      "commandId": "agent-cmd-85-1793117690154",
+      "body": "Egypt Constitution — April 2019 publication, Article 97\nArticle 97 | Excerpt identity reviewed\n\nRehearsal cue: inspect the exact source.\nCurrency and effective date: unknown.",
+      "excerpt": "التقاضى حق مصون ومكفول للكافة.",
+      "provenance": "Egypt Constitution — April 2019 publication, Article 97\nEG-CONSTITUTION-2019-ART-97\nExcerpt identity reviewed: 2026-10-27\nRehearsal cue: inspect the exact source.\nEffective date: Unknown — not reviewed\nLegal currency: Unknown — not reviewed"
+    },
+    {
+      "heading": "Source details",
+      "success": true,
+      "responseType": "CommandSuccess",
+      "commandId": "agent-cmd-92-1793117693420",
+      "body": "",
+      "excerpt": "التقاضى حق مصون ومكفول للكافة.",
+      "provenance": "EG-CONSTITUTION-2019-ART-97\nPresidency of Egypt | Constitution Apr 2019\nArt. 97 | PDF p.45 (printed 39) | presidency.eg\nExcerpt identity reviewed: 2026-10-27\nEffective date: Unknown — not reviewed\nLegal currency: Unknown — not reviewed"
+    },
+    {
+      "heading": "QanunOS Vision",
+      "success": true,
+      "responseType": "CommandSuccess",
+      "commandId": "agent-cmd-99-1793117697950",
+      "body": "Simulated hearing — fictional facts.\nFictional case: permit refusal.\nPractice identifying a source for access to court.",
+      "excerpt": "التقاضى حق مصون ومكفول للكافة.",
+      "provenance": "EG-CONSTITUTION-2019-ART-97\nPresidency of Egypt | Constitution Apr 2019\nArt. 97 | PDF p.45 (printed 39) | presidency.eg\nExcerpt identity reviewed: 2026-10-27\nEffective date: Unknown — not reviewed\nLegal currency: Unknown — not reviewed"
+    }
+  ],
+  "sourceAssertions": {
+    "exactArabic": "التقاضى حق مصون ومكفول للكافة.",
+    "publicationPage": "PDF45 / printed39",
+    "reviewDate": "2026-10-27",
+    "effectiveDate": "Unknown — not reviewed",
+    "currentValidity": "Unknown — not reviewed",
+    "allMatched": true
+  },
+  "interactionTail": {
+    "errors": [],
+    "prints": [
+      "I 19:14:06.835 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Ready | fictional facts; mock input; local fixture",
+      "I 19:14:06.835 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalUI.ts:124] [QanunOS] UIKit rehearsal card ready; fixed authored world anchor.",
+      "I 19:14:44.014 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Question | fictional facts; mock input; local fixture",
+      "I 19:14:47.582 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Rejected | fictional facts; mock input; local fixture",
+      "I 19:14:52.026 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Replacement | fictional facts; mock input; local fixture",
+      "I 19:14:55.398 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Source | fictional facts; mock input; local fixture",
+      "I 19:14:59.802 [Preview 1] [Assets/Scripts/QanunOSVisionRehearsalMain.ts:27] [QanunOS] stage=Ready | fictional facts; mock input; local fixture"
+    ]
+  },
+  "captures": [
+    "2026-10-27-flow-parent-rejected.jpg",
+    "2026-10-27-flow-parent-source.jpg",
+    "2026-10-27-flow-parent-returned.jpg"
+  ],
+  "captureNotes": "Parent repeated the fresh cycle while saving durable captures; all five additional actions also returned success, then left Ready. Captures were inspected directly.",
+  "builderLeaf": {
+    "scenarioCount": 5,
+    "distinctAssertions": 69,
+    "continuousScenarioSeconds": 93.5263715,
+    "evidence": "2026-10-27-rehearsal-builder-evidence.md"
+  },
+  "verdict": "PASS for approved local rehearsal; Gate0 and Gate2 observed",
+  "limits": [
+    "Refresh reports a LEAF editor-plugin reset-state-save warning; interaction tail has no errors",
+    "One post-LEAF manual interaction timeout was recovered and is disclosed in builder evidence",
+    "No MP4 export verified; recorder save dialog could not be reliably controlled",
+    "No account authentication, publishing, live speech, QanunOS API, current-law validity or hardware/performance claim"
+  ]
+}

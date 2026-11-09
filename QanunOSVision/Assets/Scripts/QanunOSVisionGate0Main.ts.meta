@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/1c0dfa8c-56ae-48f2-b884-8f19c36661e5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b241645d-7190-417e-8ca6-3ac50071e203
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b241645d-7190-417e-8ca6-3ac50071e203
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e802517f-95b1-4e0e-881d-5de49002f38f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e802517f-95b1-4e0e-881d-5de49002f38f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 93aa489b-c61e-4536-9e50-566204afa7bc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    card: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - card: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"QanunOS Vision — Gate 0 controller"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input AssignableType_1 card {"hint":"Typed UI component on the authored Gate0SpatialCard object."}'

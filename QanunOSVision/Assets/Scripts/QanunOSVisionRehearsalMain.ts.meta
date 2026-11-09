@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/17152c66-c176-47bf-b571-476070e9d584>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4bd9aa88-3526-48a2-a411-c3d6adb4ff2b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4bd9aa88-3526-48a2-a411-c3d6adb4ff2b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 430bad15-ca25-4ced-9b0f-508df77ce277
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/430bad15-ca25-4ced-9b0f-508df77ce277>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9de8f1d4-e5c2-4042-af5d-9901270ea229
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    card: false
+    useQanunOffice: false
+    useReviewedFixture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - card: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      useReviewedFixture: true
+      useQanunOffice: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"QanunOS Vision — local fixture rehearsal controller"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input AssignableType_1 card {"hint":"Typed UIKit view on the authored RehearsalSpatialCard."}'
+    - '// @input bool useReviewedFixture = true {"hint":"Use the reviewed local fixture. Off exercises the explicit no-reviewed-source abstention path."}'
+    - '// @input bool useQanunOffice = true {"hint":"Offer the read-only QanunOS hearing view (pairing with qanunos.com). Off keeps the card fully offline."}'

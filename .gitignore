@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+.mcp.json
+**/.cursor/mcp.json
+**/.vscode/mcp.json
+**/.claude/settings.local.json
+ls-live-instance.json
+ls-live-instance.json.tmp
+.codex/
+node_modules/
+*.pem
+*.key
+*credentials*.json
+*gcp-key*.json
+*.log
+/local-backups/
+/local-installers/
+.virtual-scene.json
+
+
+# Kept locally, not published: superseded or failed takes, and a verbatim copy of third-party rules
+/docs/evidence/Recording *.mp4
+/docs/evidence/QanunOSVision-demo-live-take1.mp4
+/docs/OFFICIAL_RULES_2026-10-27.md
+# Raw preview takes: published as release assets instead (too large for a slow push)
+/docs/evidence/QanunOSVision-demo-live.mp4
+/docs/evidence/QanunOSVision-demo.mp4

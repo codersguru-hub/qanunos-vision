@@ -85,7 +85,7 @@ The excerpt is the first sentence of Article 97, *التقاضى حق مصون �
 - **Preview only:** everything shown runs in the Lens Studio preview. It hasn't been tested on physical glasses.
 - **Not legal advice:** this is a rehearsal tool. It doesn't establish what the current law is.
 
-**Links:** public repository *[URL]* · demo video *[YouTube URL]*
+**Links:** public repository https://github.com/codersguru-hub/qanunos-vision · demo video *[YouTube URL]*
 
 ---
 

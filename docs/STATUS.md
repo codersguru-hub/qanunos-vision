@@ -14,7 +14,7 @@
 
 ## Local preview recording (2026-11-08)
 
-Lens Studio exported [QanunOSVision-demo.mp4](evidence/QanunOSVision-demo.mp4). The verified 85.894-second native take shows the prepared mock question, Article 98 rejection, exact Article 97 match, source inspection and return. The [54-second narrated review cut](evidence/QanunOSVision-demo-explained.mp4) opens with a labeled courtroom dramatization and uses cropped Lens Studio footage for the actual interactions. Final review and public upload are pending.
+Lens Studio exported `QanunOSVision-demo.mp4` (kept locally, not in the public repository because of its size). The verified 85.894-second native take shows the prepared mock question, Article 98 rejection, exact Article 97 match, source inspection and return. The [54-second narrated review cut](evidence/QanunOSVision-demo-explained.mp4) opens with a labeled courtroom dramatization and uses cropped Lens Studio footage for the actual interactions. Final review and public upload are pending.
 
 As of 2026-10-27, Africa/Cairo. **The approved local rehearsal flow is implemented, saved and independently verified. Gate 0 and Gate 2 pass.** Five real LEAF scenarios succeeded with 69 distinct assertions; the continuous scenario lasted 93.526 seconds. The parent independently repeated the fresh interaction cycle and inspected actual captures.
 

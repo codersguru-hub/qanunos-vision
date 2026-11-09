@@ -46,7 +46,7 @@ On-screen labels: "Actual Lens Studio preview" on all Lens footage, "AI dramatiz
 
 ### Result (2026-11-08)
 
-- Raw take: [QanunOSVision-demo-live.mp4](evidence/QanunOSVision-demo-live.mp4), one continuous Lens Studio preview recording, 361.4 s at 1610 × 1590 and 30 fps. The flow runs from 0 to about 110 s: Ready, pairing code JDE5-2U5R (14.6 s), approval on qanunos.com, hearing card with the 10 Nov 2026 next hearing (49 s), question (67 s), Art. 98 rejected (73 s), Art. 97 exact match (86 s), source (95 s), Ready (105 s). The rest is the idle Ready card.
+- Raw take: `QanunOSVision-demo-live.mp4` (kept locally, not in the public repository because of its size), one continuous Lens Studio preview recording, 361.4 s at 1610 × 1590 and 30 fps. The flow runs from 0 to about 110 s: Ready, pairing code JDE5-2U5R (14.6 s), approval on qanunos.com, hearing card with the 10 Nov 2026 next hearing (49 s), question (67 s), Art. 98 rejected (73 s), Art. 97 exact match (86 s), source (95 s), Ready (105 s). The rest is the idle Ready card.
 - Website approval: [2026-11-08-website-approve.jpg](evidence/2026-11-08-website-approve.jpg), the code typed in before approval. Pairing and approval were driven by Claude through the MCP and Claude in Chrome, on the participant's account of dummy data.
 - Narrated cut: [QanunOSVision-demo-live-narrated.mp4](evidence/QanunOSVision-demo-live-narrated.mp4), 96.9 s, 1920 × 1080, Andrew (narrator) and Ryan (mock judge) neural voices, built by `local-backups/build_live_demo.py`. Each Lens beat shows only its own stage of the take and holds the last frame; the waiting time for approval is shortened, and that beat is labelled. The opener is the labelled AI courtroom still.
 - Take 1 (no next-hearing line) is kept as `QanunOSVision-demo-live-take1.mp4`. Final human review and upload are pending.
@@ -91,7 +91,7 @@ If the shot is unavailable, open on the real preview with the same mock-judge li
 
 ## Artifacts to fill after capture
 
-- Local recording: [QanunOSVision-demo.mp4](evidence/QanunOSVision-demo.mp4), captured in SPECS 27 Interactive Preview on 2026-11-08.
+- Local recording: `QanunOSVision-demo.mp4` (kept locally, not in the public repository because of its size), captured in SPECS 27 Interactive Preview on 2026-11-08.
 - Narrated review cut: [QanunOSVision-demo-explained.mp4](evidence/QanunOSVision-demo-explained.mp4), 54 seconds. A labeled AI courtroom still introduces the scenario. Cropped Lens Studio footage shows the actual interactions alongside explanatory captions and synthesized narration.
 - Public YouTube URL: pending.
 - Raw duration: 85.894 seconds at 1610 × 1590 and 30 fps. The audio is silent.

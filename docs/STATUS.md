@@ -1,5 +1,7 @@
 # QanunOS Vision status
 
+**Submitted 2026-11-09:** https://devpost.com/software/qanunos-vision
+
 ## Live QanunOS hearing card (2026-11-08)
 
 **Works end to end in Lens Studio preview against production qanunos.com.** From the Ready card, "QanunOS hearing" starts a device pairing. The card shows the code, the lawyer approves it on qanunos.com/vision, and the Lens receives a read-only token that is kept in memory and never printed. It then reads the case list and one case summary. The hearing card shows the case title, court and stage, the next hearing when there is one, client and opponent, subject and open-task count, under "Fictional demo account | Live QanunOS, read-only". "Rehearse a citation" opens the existing mock judge question and four-way choice.
@@ -125,10 +127,10 @@ The canonical journey state remains the repository-root .devpost-hackathon-state
 - One manual interaction batch after a LEAF run timed out. It was not accepted as passing evidence; a refreshed run succeeded and the correct abstention capture replaced the invalid one.
 - The card can partly leave the FOV when moving sideways away from the starting position; reset restores the intended view. Busy-room/additive contrast and physical comfort are unmeasured. Card defaults were adjusted to 28 cm compact/38 cm detail height; the card itself is the rehearsal-position cue.
 - The initial recorder probe did not produce a verified MP4. The later 85.894-second native take is linked above.
-- No live QanunOS integration, current-law review, broad legal QA, real-world persistence, physical device test, latency/frame-rate benchmark, public repository, YouTube upload or submission is claimed.
+- No current-law review, broad legal QA, real-world persistence, physical device test or latency/frame-rate benchmark is claimed. (Since this was written, the live read-only hearing card, the public repository, the YouTube video and the Devpost submission have been done; see the top of this file.)
 
 ## Next action
 
-Record the actual preview manually using its red video-record button and docs/DEMO_SCRIPT.md; save the output inside this workspace, then inspect the real clip and its duration/privacy before any upload. The local prototype is ready for that recording. Publishing/account-protected services and final Devpost submission require later explicit authorization.
+Submitted to Learn AR with SPECS on 2026-11-09: https://devpost.com/software/qanunos-vision (video https://youtu.be/9VZhsGy4deM, public; repository https://github.com/codersguru-hub/qanunos-vision). The project stays editable on Devpost until the deadline, 2026-11-09 5:00 pm ET. Still open: merge QanunOS `fix/vision-text-dates` (deployed, not merged or pushed) before the next QanunOS deploy, and physical-device testing.
 
 Earlier setup and sign-in history is preserved in docs/evidence/2026-10-27-status-before-local-demo-final.md and docs/evidence/2026-10-27-sign-in-error.md.

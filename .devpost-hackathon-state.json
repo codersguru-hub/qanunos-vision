@@ -18,11 +18,13 @@
     "ai_usage": "",
     "codex_usage": ""
   },
-  "current_stage": "resources",
+  "current_stage": "submitted",
   "completed_stages": [
     "start-hackathon",
     "review",
-    "resources"
+    "resources",
+    "build",
+    "submit"
   ],
   "rules_acknowledged": true,
   "learning": {
@@ -34,8 +36,12 @@
   },
   "submission": {
     "draft_file": "devpost-submission.md",
-    "status": "not-started"
+    "status": "submitted",
+    "submitted_at": "2026-11-09",
+    "project_url": "https://devpost.com/software/qanunos-vision",
+    "video_url": "https://youtu.be/9VZhsGy4deM",
+    "repository_url": "https://github.com/codersguru-hub/qanunos-vision",
+    "editable_until": "2026-11-09 17:00 ET"
   },
-  "next_command": "prepare-submission"
+  "next_command": null
 }
-

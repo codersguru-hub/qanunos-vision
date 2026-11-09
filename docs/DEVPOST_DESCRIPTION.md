@@ -1,6 +1,6 @@
 # QanunOS Vision — submission draft
 
-> **Internal notes, not for pasting.** Draft only; nothing has been submitted. Rewritten 2026-11-08 for the four-way citation flow; the live QanunOS hearing card was added the same evening. Before pasting:
+> **Submitted 2026-11-09** as https://devpost.com/software/qanunos-vision. The live story also has a "What I learned" section (additive display, checking AI agents, accurate is not current). **Internal notes, not for pasting.** Rewritten 2026-11-08 for the four-way citation flow; the live QanunOS hearing card was added the same evening. Before pasting:
 > - The video's one job: a wrong citation rejected, the exact match, source inspection, and return. The approved video is docs/evidence/QanunOSVision-demo-live-narrated.mp4 (96.9 s): it opens with the live hearing card (pair, approve on qanunos.com, case card with the next hearing) and then the citation flow, so the whole story below is shown. The write-up may also describe behavior that's verified but not shown (the other rejections, abstention, tests). Cut anything that's neither shown nor verified.
 > - The story is written in your voice. Check that Inspiration matches why you built this.
 > - Fill in the two personal sections (what I learned, links) in your own words.

@@ -131,6 +131,6 @@ The canonical journey state remains the repository-root .devpost-hackathon-state
 
 ## Next action
 
-Submitted to Learn AR with SPECS on 2026-11-09: https://devpost.com/software/qanunos-vision (video https://youtu.be/9VZhsGy4deM, public; repository https://github.com/codersguru-hub/qanunos-vision). The project stays editable on Devpost until the deadline, 2026-11-09 5:00 pm ET. Still open: merge QanunOS `fix/vision-text-dates` (deployed, not merged or pushed) before the next QanunOS deploy, and physical-device testing.
+Submitted to Learn AR with SPECS on 2026-11-09: https://devpost.com/software/qanunos-vision (video https://youtu.be/9VZhsGy4deM, public; repository https://github.com/codersguru-hub/qanunos-vision). The project stays editable on Devpost until the deadline, 2026-11-09 5:00 pm ET. The QanunOS date fix is merged into master (codersguru-hub/QanunOS#9). Still open: physical-device testing.
 
 Earlier setup and sign-in history is preserved in docs/evidence/2026-10-27-status-before-local-demo-final.md and docs/evidence/2026-10-27-sign-in-error.md.

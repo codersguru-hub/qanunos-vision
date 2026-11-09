@@ -93,7 +93,7 @@ If the shot is unavailable, open on the real preview with the same mock-judge li
 
 - Local recording: `QanunOSVision-demo.mp4` (kept locally, not in the public repository because of its size), captured in SPECS 27 Interactive Preview on 2026-11-08.
 - Narrated review cut: [QanunOSVision-demo-explained.mp4](evidence/QanunOSVision-demo-explained.mp4), 54 seconds. A labeled AI courtroom still introduces the scenario. Cropped Lens Studio footage shows the actual interactions alongside explanatory captions and synthesized narration.
-- Public YouTube URL: pending.
+- Public YouTube URL: https://youtu.be/9VZhsGy4deM (narrated cut, published public 2026-11-09).
 - Raw duration: 85.894 seconds at 1610 × 1590 and 30 fps. The audio is silent.
 - Continuous Gate 2 evidence: completed 93.526-second LEAF run with in-run captures; see EVIDENCE_REPORT.md. This is test evidence, not a recorded demo video.
 - Raw take review: sampled frames show the mock question, Article 98 rejection, exact Article 97 match, source details and return. The capture shows only the preview. The source text is small against the room background. Final review of the narrated cut is pending.
